@@ -1,0 +1,7 @@
+{
+	"name": "kalenjohnson/wp-bootstrap-acf",
+	"type": "wordpress-plugin",
+	"require": {
+		"php": ">=5.3.0"
+	}
+}
