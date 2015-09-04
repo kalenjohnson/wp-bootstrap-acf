@@ -52,7 +52,7 @@ class Bootstrap_ACF_Sections {
 		$this->views = dirname(__FILE__) . '/views/';
 		$this->count = 0;
 
-		if ( function_exists( 'acf_register_flexible_content_field' ) )
+		if ( class_exists('acf_pro') || function_exists( 'acf_register_flexible_content_field' ) )
 		{
 			$this->add_action( 'bootstrap-acf', array( $this, 'bootstrap_sections' ) );
 		}

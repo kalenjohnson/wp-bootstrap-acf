@@ -1,0 +1,251 @@
+{
+    "key": "group_543ec1e16d489",
+    "title": "Bootstrap Sections",
+    "fields": [
+        {
+            "key": "field_543ec1e4dda8a",
+            "label": "Sections",
+            "name": "sections",
+            "prefix": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "button_label": "Add Section",
+            "min": "",
+            "max": "",
+            "layouts": [
+                {
+                    "key": "543ec1f004245",
+                    "name": "carousel",
+                    "label": "Carousel",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_543ec20ddda8b",
+                            "label": "Full Width",
+                            "name": "full_width",
+                            "prefix": "",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "column_width": "",
+                            "message": "",
+                            "default_value": 0
+                        },
+                        {
+                            "key": "field_543ec21fdda8c",
+                            "label": "Carousel Controls",
+                            "name": "carousel_controls",
+                            "prefix": "",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "column_width": "",
+                            "message": "",
+                            "default_value": 0
+                        },
+                        {
+                            "key": "field_543ec226dda8d",
+                            "label": "Carousel Indicators",
+                            "name": "carousel_indicators",
+                            "prefix": "",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "column_width": "",
+                            "message": "",
+                            "default_value": 0
+                        },
+                        {
+                            "key": "field_543ec230dda8e",
+                            "label": "Slides",
+                            "name": "slides",
+                            "prefix": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "column_width": "",
+                            "min": "",
+                            "max": "",
+                            "layout": "table",
+                            "button_label": "Add Slide",
+                            "sub_fields": [
+                                {
+                                    "key": "field_543ec241dda8f",
+                                    "label": "Image",
+                                    "name": "image",
+                                    "prefix": "",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "column_width": "",
+                                    "return_format": "array",
+                                    "preview_size": "medium",
+                                    "library": "all"
+                                },
+                                {
+                                    "key": "field_543ec256dda90",
+                                    "label": "Caption",
+                                    "name": "caption",
+                                    "prefix": "",
+                                    "type": "wysiwyg",
+                                    "instructions": "Optional",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "column_width": "",
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "543ec2adbff90",
+                    "name": "accordion",
+                    "label": "Accordion",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_543ec2b7bff91",
+                            "label": "Accordion Section",
+                            "name": "accordion_section",
+                            "prefix": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "column_width": "",
+                            "min": "",
+                            "max": "",
+                            "layout": "table",
+                            "button_label": "Add Accordion Section",
+                            "sub_fields": [
+                                {
+                                    "key": "field_543ec2c8bff92",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "prefix": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "column_width": "",
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": "",
+                                    "readonly": 0,
+                                    "disabled": 0
+                                },
+                                {
+                                    "key": "field_543ec2d1bff93",
+                                    "label": "Content",
+                                    "name": "content",
+                                    "prefix": "",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "column_width": "",
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "543ec2e7bff94",
+                    "name": "tabs",
+                    "label": "Tabs",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_543ec2efbff95",
+                            "label": "Tab Section",
+                            "name": "tab_section",
+                            "prefix": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "column_width": "",
+                            "min": "",
+                            "max": "",
+                            "layout": "table",
+                            "button_label": "Add Tab Section",
+                            "sub_fields": [
+                                {
+                                    "key": "field_543ec302bff96",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "prefix": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "column_width": "",
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": "",
+                                    "readonly": 0,
+                                    "disabled": 0
+                                },
+                                {
+                                    "key": "field_543ec318bff97",
+                                    "label": "Content",
+                                    "name": "content",
+                                    "prefix": "",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "column_width": "",
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": ""
+}
