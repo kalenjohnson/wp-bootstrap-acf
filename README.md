@@ -1,11 +1,11 @@
 Bootstrap - ACF Flexible Content Fields
 ================
 
-Wordpress plugin that sets up ACF Flexible Content sections for use with Bootstrap. Includes Carousels, Accordions, and Tabs.
+WordPress plugin that sets up ACF Flexible Content sections for use with Bootstrap. Includes Carousels, Accordions, and Tabs.
 
 ## Requirements
 
-* [Wordpress](http://wordpress.org/)
+* [WordPress](http://wordpress.org/)
 * [Advanced Custom Fields](http://www.advancedcustomfields.com/)
 * Advanced Custom Fields - Repeater [(PAID PLUGIN)](http://www.advancedcustomfields.com/add-ons/repeater-field/)
 * Advanced Custom Fields - Flexible Content [(PAID PLUGIN)](http://www.advancedcustomfields.com/add-ons/flexible-content-field/)
@@ -13,7 +13,7 @@ Wordpress plugin that sets up ACF Flexible Content sections for use with Bootstr
 
 ## Installation
 
-1. Download this plugin and place it in your `plugins` folder in your Wordpress installation
+1. Download this plugin and place it in your `plugins` folder in your WordPress installation
 Alternatively, if you are using [Composer](https://getcomposer.org) to load plugins, you can add this code to your composer.json file:
 
 		{
@@ -25,7 +25,7 @@ Alternatively, if you are using [Composer](https://getcomposer.org) to load plug
 
 		"kalenjohnson/wp-bootstrap-acf": "dev-master"
 
-3. You will need to either add the PHP code in `import/php/bootstrap-acf.php` to your theme, or preferably importing the custom fields with the [Wordpress Importer](https://wordpress.org/plugins/wordpress-importer/) and importing the `import/xml/bootstrap-acf.xml` file.
+3. You will need to either add the PHP code in `import/php/bootstrap-acf.php` to your theme, or preferably importing the custom fields with the [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) and importing the `import/xml/bootstrap-acf.xml` file.
 
 4. Finally, add this hook to your theme where you would like the fields displayed: `<?php do_action('bootstrap-acf'); ?>`
 This should be placed outside the `.container` class, at the moment the Carousel has the option to be full-width or be within a `.container`. Tabs and Accordions are automatically set up in a `.container`.
